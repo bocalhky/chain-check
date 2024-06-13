@@ -12,7 +12,7 @@ fs.promises
   .then((jsonData) => {
     try {
       const data = JSON.parse(jsonData);
-      console.log(Object.keys(data).length)
+      console.log("Checking", Object.keys(data).length, "chains")
       for (let chain in data) {
         let url = data[chain]["rpc"][0];
         // create the rpc call to send to RPC urls
