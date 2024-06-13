@@ -11,9 +11,11 @@ First, run
 ```
 npm i
 ```
-then switch the address in index.js under myAddress to be the address whose balances you want to check
+then switch the address in `index.js` under `myAddress` to be the address whose balances you want to check
 
 Then run
 ```
 node index.js
 ```
+![image](https://github.com/bocalhky/chain-check/assets/2865836/01401f52-a2e6-4ee0-8ef3-f9284d832438)
+
